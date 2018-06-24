@@ -1,33 +1,121 @@
-{
-    background-color: white;
+div {
+    Border-radius: 10px;
 }
 
-div {
-    background-color: lightgrey;
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+#header {
+    z-index: 1;
+    position: Fixed;
+    width: 98%;
+    margin-top: -20px;
+    height: 80px;
+    Background-color: #CE5567;
+    Margin-bottom: 10px;
+}
+
+#name {
+    float: left;
+    margin-left: 5px;
+    Padding-top: 5px;
+    font-size: 20px;
+    Font-family: Lato, sans-serif;
+    color: #F2E9EB;
+}
+
+#email{
+    Float: Right;
+    Margin-right: 5px;
+    Padding-top: 5px;
+    Font-size: 20px;
+    Font-family: lato, Sans-serif;
+    Color: #F2E9EB;
 }
 
 
 h1 {
-    color: black;
-  text-align: center;
+    Margin-left: 5px;
+    Margin-Bottom:15px;
+    Font-family: Lato, Sans-serif;
+    color: #CE5567;
 }
+
+
 h2 {
-    color: black;
-  text-align: center;
+    Margin-left: 5px;
+    Margin-Bottom:5px;
+    Font-family: Lato, Sans-serif;
+    color: #CE5567;
 }
+
+
 h3 {
-    color: black;
-  text-align: center;
+    Margin-left: 5px;
+    Margin-Bottom:5px;
+    Font-family: lato, Sans-serif;
 }
-p {
-    color: Black;
-  font-family: verdana;
-    font-size: 20px;
+
+
+
+h4 {
+    Margin-left: 5px;
+    Margin-Bottom:5px;
+    Font-family: Verdana, Sans-serif;
 }
+
+h5 {
+    Margin-left: 5px;
+    Margin-Bottom:5px;
+    Font-family: Lato, Sans-serif;
+}
+
+h6 {
+    Margin-left: 5px;
+    Margin-Bottom:10px;
+    Font-family: Lato, Sans-serif;
+}
+    
+   #My_photo {
+       Position: Relative;   
+        margin-left: 10px;
+        margin-top:30px;
+    }    
+        
+        
+    
+    .right p {
+        Position: Relative;
+        Float: Right;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:-10px;
+        Font-family: Lato, Serif;
+        Color: #000000;   
+    }
+    
+    .left {
+        position: Relative;
+        Float: left;
+        Margin-top: 50px;
+        width: 88%;
+        Height: 400px;
+        Background-color: #f4ebc3;
+        Margin-bottom: 10px
+    }
+    #footer {
+        Position: Relative;
+        Height: 70px;
+        Background-color: #CE5567;
+        Clear: Both;
+        Font-family: Lato, sans-serif;
+        Font-size: 16px;
+        Text-align: center;
+        color: #F2E9EB;
+    }
+    
+    #footer p {
+        position: Relative;
+        Padding-top: 15px;
+        Padding-bottom: 10px; 
+    }
+    
+    }
+        

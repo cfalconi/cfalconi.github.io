@@ -1,3 +1,7 @@
+#content {
+overflow: scroll;
+}
+
 div {
     Border-radius: 10px;
 }

@@ -7,7 +7,7 @@ div {
     position: Fixed;
     width: 98%;
     margin-top: -20px;
-    height: 80px;
+    height: 100px;
     Background-color: #CE5567;
     Margin-bottom: 10px;
 }
@@ -21,11 +21,11 @@ div {
     color: #F2E9EB;
 }
 
-#email{
+#email {
     Float: Right;
     Margin-right: 5px;
     Padding-top: 5px;
-    Font-size: 20px;
+    Font-size: 15px;
     Font-family: lato, Sans-serif;
     Color: #F2E9EB;
 }

@@ -91,6 +91,10 @@ h6 {
         Font-family: Lato, Serif;
         Color: #000000;   
     }
+
+a:hover{
+    font-weight:Bold;
+}
     
     .left {
         position: Relative;
@@ -101,6 +105,19 @@ h6 {
         Background-color: #f4ebc3;
         Margin-bottom: 10px
     }
+
+.right {
+    position: Relative;
+        Float: right;
+        Margin-top: 50px;
+        width: 88%;
+        Height: 400px;
+        Background-color: #f4ebc3;
+        Margin-bottom: 10px
+}
+    
+
+
     #footer {
         Position: Relative;
         Height: 70px;
